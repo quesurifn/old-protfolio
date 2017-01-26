@@ -446,10 +446,10 @@ h2 {
   display: table;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
-  background-color: #c5c5c5; }
+  background-color: black; }
 
 .social-links span i {
-  color: #fff;
+  color: #f2374a;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   margin: 0;
