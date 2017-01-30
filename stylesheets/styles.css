@@ -455,8 +455,7 @@ main {
 
 #sales {
   padding-bottom: 3%;
-  background-color: black;
-  height: auto; }
+  background-color: black; }
   #sales div.row div.col-md-12 h1 {
     color: #F16473;
     text-align: center;
@@ -468,25 +467,28 @@ main {
     height: 1px;
     margin: auto;
     background-color: #707070; }
-  #sales div.row div.col-md-6 h2 {
-    font-size: 25px;
-    font-weight: bold;
-    color: white;
-    text-align: center; }
-  #sales div.row div.col-md-6 span {
-    display: block;
-    width: 60px;
-    height: 1px;
-    margin: auto;
-    background-color: white; }
-  #sales div.row div.col-md-6 p {
-    color: #F16473;
-    max-width: 300px;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    margin: auto;
-    padding-top: 6px; }
+  #sales div.row {
+    padding-top: 3%;
+    height: auto; }
+    #sales div.row div.col-md-4 h2 {
+      font-size: 25px;
+      font-weight: bold;
+      color: white;
+      text-align: center; }
+    #sales div.row div.col-md-4 span {
+      display: block;
+      width: 60px;
+      height: 1px;
+      margin: auto;
+      background-color: white; }
+    #sales div.row div.col-md-4 p {
+      color: #F16473;
+      max-width: 300px;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+      margin: auto;
+      padding-top: 6px; }
 
 .skillbar {
   position: relative;

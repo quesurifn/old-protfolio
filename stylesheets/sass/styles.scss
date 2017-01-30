@@ -361,7 +361,6 @@ img.blah {
 #sales {
   padding-bottom: 3%;
   background-color: black;
-  height: auto;
   div.row {
     div.col-md-12 {
       h1{
@@ -380,7 +379,9 @@ img.blah {
   }
 }
 div.row {
-  div.col-md-6 {
+  padding-top: 3%;
+  height: auto;
+  div.col-md-4 {
     h2 {
       font-size: 25px;
       font-weight: bold;
