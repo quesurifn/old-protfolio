@@ -180,12 +180,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   overflow-x: hidden;
-  max-width: 100%;
-  background: url("../imgs/contactMe.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  max-width: 100%; }
 
 .centered-navigation {
   background-color: #333;
@@ -331,7 +326,7 @@ body {
   transform: rotate(-135deg); }
 
 footer {
-  height: auto;
+  height: 18em;
   max-width: 100%;
   opacity: 1.9; }
   footer small {
@@ -389,14 +384,11 @@ footer {
 
 .overlay {
   z-index: 1;
-  height: 100%;
   width: 100%;
-  position: fixed;
-  overflow: auto;
+  overflow-y: hidden;
   top: 0px;
   left: 0px;
-  background: rgba(0, 0, 0, 0.7);
-  overflow-x: hidden; }
+  background: rgba(0, 0, 0, 0.7); }
 
 h1 {
   margin: 1.3em auto 1.3em auto;
@@ -503,5 +495,51 @@ span i {
 
   .social-links > div.skype {
     margin-left: 4vw !important; } }
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top; }
+
+.navbar .navbar-collapse {
+  text-align: center; }
+
+li > a {
+  padding-right: 2.5em !important;
+  color: white !important;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 2.9px; }
+
+li > a:hover {
+  opacity: 0.4; }
+
+.navbar-default, nav {
+  background-color: #333 !important;
+  border-bottom: #242424; }
+
+.navbar-header > button {
+  border: none; }
+
+.navbar-header > button:hover {
+  opacity: 1;
+  background-color: #333; }
+
+.navber-toggle:hover, .navbar-toggle:focus {
+  background-color: #333 !important; }
+
+button > span, .icon-bar {
+  background-color: #F16473 !important; }
+
+.navbar {
+  margin-bottom: 0px; }
+
+#img {
+  background: url("../imgs/work.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  max-width: 100%; }
 
 /*# sourceMappingURL=contact.css.map */

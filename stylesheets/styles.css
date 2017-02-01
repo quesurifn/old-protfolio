@@ -658,4 +658,42 @@ footer {
   background-image: linear-gradient(to bottom, #a3a7a8, #999999);
   text-decoration: none; }
 
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top; }
+
+.navbar .navbar-collapse {
+  text-align: center; }
+
+li > a {
+  padding-right: 2.5em !important;
+  color: white !important;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 2.9px; }
+
+li > a:hover {
+  opacity: 0.4; }
+
+.navbar-default, nav {
+  background-color: #333 !important;
+  border-bottom: #242424; }
+
+.navbar-header > button {
+  border: none; }
+
+.navbar-header > button:hover {
+  opacity: 1;
+  background-color: #333; }
+
+.navber-toggle:hover, .navbar-toggle:focus {
+  background-color: #333 !important; }
+
+button > span, .icon-bar {
+  background-color: #F16473 !important; }
+
+.navbar {
+  margin-bottom: 0px; }
+
 /*# sourceMappingURL=styles.css.map */
