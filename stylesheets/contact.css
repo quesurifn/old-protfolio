@@ -365,11 +365,8 @@ footer {
   display: inline-block;
   text-decoration: none; }
 
-.links a:hover {
-  background: #f2374a; }
-
 .links a:hover i {
-  opacity: 0.5; }
+  opacity: 0.3; }
 
 .links {
   display: inline-block;

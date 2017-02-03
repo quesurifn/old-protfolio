@@ -250,6 +250,7 @@ h1 {
   text-align: left;
   margin: auto;
   max-width: 500px;
+  padding: 0 8px 0 8px;
   p {
     color: white;
     font-size: 12px;
@@ -299,9 +300,6 @@ footer {
 .links a i::before{
   display:inline-block;
   text-decoration:none;
-}
-.links a:hover{
-  background: rgba(0,0,0,0.7);
 }
 .links a:hover i{
   opacity: 0.3;

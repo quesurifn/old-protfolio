@@ -398,7 +398,7 @@ img.blah {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%; }
+    margin-top: 2%; }
     .parallax div p {
       color: white;
       text-align: center;
@@ -451,7 +451,7 @@ main {
     color: white;
     font-weight: bold;
     padding-top: 8px;
-    font-size: 14; }
+    font-size: 14px; }
 
 #sales {
   padding-bottom: 3%;
@@ -617,16 +617,13 @@ footer {
   display: inline-block;
   text-decoration: none; }
 
-.links a:hover {
-  background: rgba(0, 0, 0, 0.7); }
-
 .links a:hover i {
   opacity: 0.3; }
 
 .links {
   display: inline-block;
   position: relative;
-  top: 36rem;
+  top: 35rem;
   margin-left: auto;
   margin-right: auto; }
 
@@ -695,5 +692,8 @@ button > span, .icon-bar {
 
 .navbar {
   margin-bottom: 0px; }
+
+.col-md-3 img {
+  height: 172px !important; }
 
 /*# sourceMappingURL=styles.css.map */
