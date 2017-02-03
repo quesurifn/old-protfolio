@@ -5,7 +5,7 @@
 body {
   margin-left: auto;
   margin-right: auto;
-  overflow-x: hidden;
+  overflow: hidden;
   max-width: 100%;
 }
 
@@ -208,7 +208,7 @@ body {
   }
 
 footer {
-  height: 18em;
+  height: 100vh;
   max-width: 100%;
   opacity: 1.9;
 
@@ -267,14 +267,15 @@ footer {
   font-weight: bold;
 }
 .overlay {
-  z-index: 1;
-  width: 100%;
-  overflow-y: hidden;
-  top: 0px;
-  left: 0px;
-  background: rgba(0, 0, 0, 0.7);
-}
-
+   z-index: 1;
+  height: 100%;
+   width: 100%;
+  //position: fixed;
+   top: 0px;
+   left: 0px;
+   background: rgba(0, 0, 0, 0.7);
+  overflow-x: hidden;
+ }
 h1 {
   margin: 1.3em auto 1.3em auto;
   color: #f2374a;
@@ -443,11 +444,10 @@ button > span, .icon-bar {
 }
 
 #img {
-  background: url("../imgs/work.jpg") no-repeat center center fixed;
+  background: url("../imgs/work.jpg") no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  overflow: hidden;
   max-width: 100%;
 }

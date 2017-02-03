@@ -179,7 +179,7 @@ hr {
 body {
   margin-left: auto;
   margin-right: auto;
-  overflow-x: hidden;
+  overflow: hidden;
   max-width: 100%; }
 
 .centered-navigation {
@@ -326,7 +326,7 @@ body {
   transform: rotate(-135deg); }
 
 footer {
-  height: 18em;
+  height: 100vh;
   max-width: 100%;
   opacity: 1.9; }
   footer small {
@@ -381,11 +381,12 @@ footer {
 
 .overlay {
   z-index: 1;
+  height: 100%;
   width: 100%;
-  overflow-y: hidden;
   top: 0px;
   left: 0px;
-  background: rgba(0, 0, 0, 0.7); }
+  background: rgba(0, 0, 0, 0.7);
+  overflow-x: hidden; }
 
 h1 {
   margin: 1.3em auto 1.3em auto;
@@ -531,12 +532,11 @@ button > span, .icon-bar {
   margin-bottom: 0px; }
 
 #img {
-  background: url("../imgs/work.jpg") no-repeat center center fixed;
+  background: url("../imgs/work.jpg") no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  overflow: hidden;
   max-width: 100%; }
 
 /*# sourceMappingURL=contact.css.map */
