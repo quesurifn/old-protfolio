@@ -327,9 +327,12 @@ img.blah {
 }
 
 .buffer {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+
 
 .col-md-3 {
+  margin: auto;
     img {
       max-width: 100%;
     }
