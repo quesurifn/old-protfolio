@@ -697,6 +697,7 @@ button > span, .icon-bar {
   margin-bottom: 0px; }
 
 .col-md-3 img {
-  height: 172px !important; }
+  height: 172px !important;
+  margin: auto; }
 
 /*# sourceMappingURL=styles.css.map */
